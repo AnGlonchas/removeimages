@@ -1,6 +1,6 @@
 import pygame
 
-screen = pygame.display.set_mode((30,30),pygame.SCALED | pygame.FULLSCREEN)
+screen = pygame.display.set_mode((30,30))
 clock = pygame.time.Clock()
 img = pygame.image.load("ball.png").convert_alpha()
 click = False
